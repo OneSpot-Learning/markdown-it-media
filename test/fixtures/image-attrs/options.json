@@ -1,0 +1,8 @@
+{
+  "attrs": {
+    "image": {
+      "class": "test options",
+      "lazy": "true"
+    }
+  }
+}

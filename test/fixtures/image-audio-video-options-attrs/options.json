@@ -1,0 +1,19 @@
+{
+  "controls": true,
+  "attrs": {
+    "image": {
+      "class": "image",
+      "lazy": "true"
+    },
+    "audio": {
+      "class": "audio",
+      "crossorigin": "anonymous"
+    },
+    "video": {
+      "class": "video",
+      "crossorigin": "anonymous",
+      "autoplay": "autoplay",
+      "muted": "muted"
+    }
+  }
+}
