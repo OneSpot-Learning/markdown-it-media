@@ -5,8 +5,8 @@
 
 # Build assets
 node_modules
-/dist
-/coverage
+coverage/
+types/
 
 # Log files
 npm-debug.log*
