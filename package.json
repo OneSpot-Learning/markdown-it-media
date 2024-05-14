@@ -4,14 +4,17 @@
   "description": "Markdown it plugin with rich media support, including video and audio.",
   "type": "module",
   "exports": "./index.js",
+  "types": "types/index.d.ts",
   "scripts": {
     "check": "tsc --noEmit",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "prettier": "prettier --ignore-path .ignore --write .",
-    "prettier:ci": "prettier --ignore-path .ignore --check .",
+    "prepare": "npm run types",
+    "prettier": "prettier --write .",
+    "prettier:ci": "prettier --check .",
     "test": "node --test",
-    "test:coverage": "node --test --experimental-test-coverage"
+    "test:coverage": "node --test --experimental-test-coverage",
+    "types": "tsc --declaration --declarationMap --emitDeclarationOnly --outDir types --esModuleInterop"
   },
   "repository": {
     "type": "git",
