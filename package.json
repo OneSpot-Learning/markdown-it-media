@@ -1,6 +1,6 @@
 {
   "name": "@gotfeedback/markdown-it-media",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Markdown it plugin with rich media support, including video and audio.",
   "type": "module",
   "exports": "./index.js",
